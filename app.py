@@ -1,6 +1,6 @@
 from flask import Flask,jsonify,request
 from flask_restful import Api,Resource,reqparse
-from sklearn.datasets.samples_generator import (make_blobs,
+from sklearn.datasets import (make_blobs,
                                                 make_circles,
                                                 make_moons)
 from sklearn.cluster import KMeans, SpectralClustering
